@@ -175,5 +175,11 @@ if __name__ == "__main__":
 # TAKEHOME NOTES AFTER PLAY SESSION
 # ==============================================================================
 """
+    - Visualization: Plot contour lines with your path drawn on top to see if your algorithm is getting stuck, bouncing around, or heading the right way. This is the easiest method for understanding as it's visual and intuitive.
 
+    - Nelder-Mead: Moves a simple area around the grid without using slopes, making it great for messy or bumpy functions.
+
+    - Gradient Descent: Takes steps straight downhill using the slope, but can easily overshoot or get stuck moving back and forth in steep spots.
+
+    - Newton's Method: Uses both slope and curve shape to jump straight to the bottom fast, but can fail if the curve flattens out or bends the wrong way.
 """
